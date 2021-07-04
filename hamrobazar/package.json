@@ -4,9 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "nodemon ./bin/www",
+    "dev": "nodemon ./bin/www"
   },
   "dependencies": {
+    "argon2": "^0.28.2",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "joi": "^17.4.0",

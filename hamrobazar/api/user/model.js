@@ -9,8 +9,19 @@ import mongoose from 'mongoose';
 //Array
 
 const userSchema = new mongoose.Schema({
-    username: String,
     email: { type: String, required: true, unique: true },
+    address: String,
+    firstName: { type: String, required: true, index: true },
+    lastName: { type: String, required: true },
+    role: {
+        type: String,
+        enum: ['admin', 'moderator']
+    },
+    password: {
+        type: String,
+        required: true,
+    },
+    resetToken: String,
     phone: Number,
 })
 //model model
