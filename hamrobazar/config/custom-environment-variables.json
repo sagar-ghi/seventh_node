@@ -1,0 +1,12 @@
+{
+  "mail": {
+    "normalUser": {
+      "user": "NORMAL_USER_MAIL_USER",
+      "pass": ""
+    },
+    "adminUser": {
+      "user": "",
+      "pass": ""
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "welcomeMsg": "This is neither dev server not prod server",
+  "mail": {
+    "normalUser": {
+      "user": "TEST",
+      "pass": ""
+    },
+    "adminUser": {
+      "user": "",
+      "pass": ""
+    }
+  }
+}
